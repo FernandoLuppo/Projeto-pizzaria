@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;}
+
+header {
+    background-color: #b77474;
+    overflow:hidden;
+    padding: 7px;}
+
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-left: 35%;}
+
+.header-menu-list {
+    float: right;
+    padding-right: 35%;}
+
+.header-menu {
+    display: inline-block;
+    padding: 15px;}
+
+/* ----------------------------------- Body part ----------------------------------- */
+#container-home {
+
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 1%;
+margin-bottom: 1%;
+border-radius: 2%;
+border: 1px solid #000000;
+box-shadow: 2px 4px #888888;
+}
+
+
+#pizza-firt-page {
+    float: right;
+    height: 450px;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: 4px solid #000000;
+    box-shadow: 2px 4px #888888;
+    border-radius: 20%;}
+
+#wellcome-first-page {
+    font-size: 90px;
+    display: inline-block;
+    color:#c83737;
+    padding-left: 15%;
+    padding-top: 3%;
+    text-align: center;}
+
+#pizza-name {
+    font-size: 150px;
+    display: inline-block;
+    padding-left: 3%;
+    padding-top: 2%;
+    text-align: center;}
+
+#slogan {
+    font-size: 35px;
+    display: inline-block;
+    color:#000000;
+    padding-left: 17%;
+    padding-top: 2%;
+    text-align: center;}
+
+
+
+
+
+
+
+/* ----------------------------------- Footer part ----------------------------------- */
+
+footer {
+    background-color: #b77474;
+    padding: 7px;
+}
