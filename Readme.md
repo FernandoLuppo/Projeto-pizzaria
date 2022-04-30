@@ -9,7 +9,8 @@ ele é uma pagina de uma pizzaria fictícia, feita apenas com HTML e CSS.
  
  - [x] Home
  - [x] Sobre
- - [ ] cardapio
+ - [x] Cardapio
+ - [ ] Arrumar reposnsividade 
 
  <br><br>
  
