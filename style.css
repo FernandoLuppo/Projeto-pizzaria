@@ -29,15 +29,17 @@ header {
 
 .header-menu-list {
     display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    margin-right: 50px;}
 
 .header-menu {
     list-style: none;
-    margin-right: 50px;}
+    margin-left: 50px;}
 
 .link-header-menu {
     transform: scale(0.8);
-    color: #ffffff;}
+    color: #ffffff;
+    margin: auto;}
 
 .link-header-menu:hover {
     transform: scale(1);
@@ -224,31 +226,28 @@ footer {
 
     .footer-inform-list {
         display: inline;
-        text-align: center;}}
+        text-align: center;}
 
+}
 
 
 /* ----------------------------------- Contact Page ----------------------------------- */
 
+
 #contact {
     background-image: url(./Images/fundo2.jpg);
-    background-size: cover  ;
-    display:flex; 
-    flex-direction:column;
-    min-height: 100vh; 
-    margin: 0; 
-    display: grid;
-    grid-template-rows: auto 1fr auto;}
+    background-size: cover;
+    flex-grow: 1;}
 
 #container-contact{
     background-color: rgba(255, 2555, 255, 0.8);
     display: flex;
-    width: 70%;
+    width: 80%;                         
     margin: auto;
-    margin-bottom: 2%;
-    margin-top: 5%;
-    align-items: center;
-    justify-content: center;}
+    margin-top: 6%;
+    margin-bottom: 6%;
+    justify-content: space-between;
+    flex-wrap: wrap;}
 
 
 /*---------- social part ----------*/
@@ -256,31 +255,27 @@ footer {
 
 #container-contact h2 {
     font-size: 40px;
-    float: left;}
+    margin-top: 20px;
+    text-align: center;}
 
 
 #social-contact {
-    margin-top: -500px;
-    margin-bottom: -100PX;
-    margin-left: 250px;}
-
-
-#contact-title{
-    margin-left: 100px;}
+    text-align: left;
+    width: 40%;
+    margin-left: 80px;
+    padding-right: 10px;}
 
 
 #container-contact ul {
     font-size: 20px;
-    margin-top: 150px;
+    margin-top: 50px;
     list-style: none;}
 
-
 #container-contact li {
-    padding: 20px;}
-
+    padding-bottom: 25px;}
 
 .icon {
-    width: 30px;
+    width: 25px;
     padding-right: 20px;}
 
 
@@ -288,27 +283,19 @@ footer {
  
 
 #about-us-container {
-    width: 700px;
-    float: right;
+    width: 40%;
     text-align: center;
-    margin-top: -700px;
-    margin-bottom: -100px;
-    margin-right: -500px; }
-
-
-#about-us-title {
-    margin-top: 58px;
-    margin-left: 44%;}
-
+    margin-right: 80px;
+    margin-bottom: 20px;}
 
 #paragraphs-about-us {
-    padding-left: 20%;
-    margin-top: 200px;}
+    margin-top: 80px;}
 
 
 #about-us-container p {
+    line-height: 30px;
     font-size: 20px;
-    padding-top: 40px;}
+    margin-top: 40px;}
 
 
 #menssagem {
@@ -319,156 +306,88 @@ footer {
 /*---------- map part ----------*/
 
     
-#map {
-    
-    text-align: center;
-    float: left;
-    margin-top: 500px;
-    margin-left: 7%;
-    width: 800px;
-    transform: translateX(-70%);}
+#map { 
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    }
 
 
 #gmap_canvas{
-    width: 100%;
+    width: 800px;
     height: 400px;}
 
 
 /* ----------------------------------- screen < 1430px ----------------------------------- */
 
 
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1080px) {
 
     #container-contact {
-        width: 60%;
-        margin-left: 5%;
-        margin-top: 15%;
-        margin-bottom: 5%; }
-
+        width: 80%;
+        margin: auto;
+        margin-top: 8%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;}
 
     #social-contact{
-        margin-left: 50px;}
-
+        width: 80%;
+        margin: auto;}
 
     #container-contact h2 {
-        font-size: 25px;}
+        font-size: 30px;}
 
-
+    
     #container-contact ul {
-        font-size: 15px;}
-
+        text-align: center;
+        font-size: 13px;}
 
     .icon {
         width: 20px;}
 
+    #about-us-container {
+        width: 80%;
+        margin: auto;}
 
     #about-us-container p {
         font-size: 15px;}
 
-
-    #map {
-        transform: translateX(-35%); }
-}
-
-
-/* ----------------------------------- screen < 660px ----------------------------------- */
-
-
-@media screen and (max-width:768px) {
-
-
-/*----------------contact-------------------*/
-
-
-    #container-contact {
-        position: static;
-        height: 1200px;
-        width: 60%;
-        margin-left: 5%;
-        margin-top: 20%;
-        margin-bottom: 3%;
-        overflow: hidden;}
-
-    #contact-title {
-        margin-left: 140px;
-        margin-bottom: 40px;
-        margin-right: 0px;
-        margin-top: -300px;}
-
-     #container-contact ul {
-        margin-left: 70px;
-        margin-bottom: 40px;
-        margin-right: 0px;
-        margin-top: 0px;}
-
-    #container-contact h2 {
-        float: none;}
-
-
-/*----------------about-us-------------------*/
-
-
-    #about-us-container {
-        float: none;
-        margin-left: -290px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-        margin-top: -00px;}
-
-
-    #about-us-title {
-        margin-left: -120px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-        margin-top: -00px;}
-
-
-    #paragraphs-about-us {
-        width: 500px;
-        margin-left: -200px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-        margin-top: -00px;}
-
-
-/*------------------map-------------------*/        
-
-
-    #map {
-      display: none;}
-
+    #map { 
+        text-align: center;}
 
     #gmap_canvas {
-      display: none;}}
+        width: 90%;}
+    
+
+}
 
 
 /* ----------------------------------- Menu Page ----------------------------------- */
 
+
 #menu {
     background-image: url(./Images/fundo2.jpg);
-    background-size: cover  ;
-    display:flex; 
-    flex-direction:column;
-    min-height: 100vh; 
-    margin: 0; 
-    display: grid;
-    grid-template-rows: auto 1fr auto;}
+    background-size: cover;
+    flex-grow: 1;}
 
 
 #menu-list{
     background-color: rgba(255, 255, 255, 0.8);
-    max-width: 60%;
+    width: 60%;
     margin: auto;
-    margin-top: 80px;
-    margin-bottom: 10px;}
+    margin-top: 4%;
+    margin-bottom: 4%;}
 
 #menu-list h2 {
     text-align: center;
     padding: 20px;
     text-decoration: underline;
     color: #8c1717;
-    font-size: 35px;
-}
+    font-size: 35px;}
 
 .menu-container {
     padding: 20px;}
@@ -478,32 +397,42 @@ footer {
     color: #8c1717;
     font-size: 25px;}
 
-
 .menu-container p {
-    font-size: 17px;
+    font-size: 18px;
     margin-left: 30px;}
-
 
 .menu-container-grey {
     padding: 20px;
     background-color: rgba(105, 105, 105, 0.4);}
 
-
 .menu-container-grey h3 {
     color: #8c1717;
     font-size: 25px;}
 
-
 .menu-container-grey p {
-    font-size: 17px;
+    font-size: 18px;
     margin-left: 30px;}
 
 
 /* ----------------------------------- screen < 1150px ----------------------------------- */
 
 
-@media screen and (max-width:1150px) {
-
+@media screen and (max-width:768px) {
 
     #menu-list{
-        margin-top: 180px;}}
+        width: 70%;}
+
+    .menu-container h3 {
+        font-size: 20px;}
+
+    .menu-container p {
+        font-size: 15px;}
+
+    .menu-container-grey h3 {
+        font-size: 20px;}
+
+    .menu-container-grey p {
+        font-size: 15px;}
+
+
+}
