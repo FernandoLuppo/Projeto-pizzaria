@@ -311,9 +311,7 @@ footer {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    flex-wrap: wrap;
-    }
-
+    flex-wrap: wrap;}
 
 #gmap_canvas{
     width: 800px;
@@ -342,7 +340,6 @@ footer {
     #container-contact h2 {
         font-size: 30px;}
 
-    
     #container-contact ul {
         text-align: center;
         font-size: 13px;}
@@ -361,7 +358,8 @@ footer {
         text-align: center;}
 
     #gmap_canvas {
-        width: 90%;}
+        width: 90%;
+        height: 200px;}
     
 
 }
