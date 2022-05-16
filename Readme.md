@@ -1,5 +1,5 @@
 <div align="center">
-<h1> 🚀 Finalizado | Pizzaria Universitaria 🚀
+<h1> 🍕 Pizzaria Universitaria 🍕
 </div>
 
 <p align="center">Olá!! Esse projeto é um trabalho da faculdade e também o primeiro projeto que posto no Github,
